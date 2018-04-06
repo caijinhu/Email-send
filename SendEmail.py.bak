@@ -6,12 +6,12 @@ from email.mime.text import MIMEText
 
 # 第三方 SMTP 服务
 mail_host = "smtp.yeah.net"      # SMTP服务器
-mail_user = "jackcaier@yeah.net"                  # 用户名
-mail_pass = "543641157ABC"               # 授权密码，非登录密码  543641157ABC
+mail_user = ""                  # 用户名
+mail_pass = "5"               # 授权密码，非登录密码  
 
 
-sender = "jackcaier@yeah.net"
-receivers = "18810537386@163.com" #密码543641157
+sender = ""
+receivers = "" #密码
 
 
 message = MIMEMultipart()
